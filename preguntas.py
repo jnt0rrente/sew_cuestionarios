@@ -4,7 +4,7 @@ def escape(html):
 
 def ciclo(numpregunta):
     print("\nPregunta " + str(numpregunta) + ".")
-    grupo = "g3"
+    grupo = "g4"
     pregunta = "s" + str(numpregunta)
 
     tit = str(numpregunta) + ". " + escape(input("titulo: "))
