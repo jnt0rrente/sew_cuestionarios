@@ -25,6 +25,7 @@ class Checker {
             } else {
                 $("#"+idPregunta).addClass("incorrecta");
                 var p = document.createElement("p");
+                p.setAttribute("class", "_solucion");
                 p.innerText = "Solución: " + soluciones[i];
                 $("#"+idPregunta).append(p)
             }
@@ -45,7 +46,7 @@ class Checker {
             var idPregunta = groupId + "s" + (i+1);
             $("#"+idPregunta).removeClass("correcta");
             $("#"+idPregunta).removeClass("incorrecta");
-            $("p").remove()
+            $("._solucion").remove()
         }
         console.log("#"+groupId + " reseteado")
         $("#"+groupId).trigger("reset");  
