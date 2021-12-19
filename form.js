@@ -44,7 +44,8 @@ class Checker {
         for (var i = 0; i < 30; i++) {            
             var idPregunta = groupId + "s" + (i+1);
             $("#"+idPregunta).removeClass("correcta");
-            $("#"+idPregunta).removeClass("incorrecta");   
+            $("#"+idPregunta).removeClass("incorrecta");
+            $("p").remove()
         }
         console.log("#"+groupId + " reseteado")
         $("#"+groupId).trigger("reset");  
