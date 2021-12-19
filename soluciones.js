@@ -182,4 +182,52 @@ class Soluciones {
 
         return ret;
     }
+
+
+    cargarSoluciones4() {
+        var ret = new Array();
+
+        ret.push("a"); //1
+        ret.push("a");
+        ret.push("a");
+        ret.push("b");
+        ret.push("d");
+
+        ret.push("c"); //6
+        ret.push("d");
+        ret.push("a");
+        ret.push("d");
+        ret.push("d");
+
+        ret.push("c"); //11
+        ret.push("a");
+        ret.push("a");
+        ret.push("c");
+        ret.push("b");
+
+        ret.push("a"); //16
+        ret.push("a");
+        ret.push("a");
+        ret.push("d");
+        ret.push("d");
+
+        ret.push("a"); //21
+        ret.push("d");
+        ret.push("d");
+        ret.push("d");
+        ret.push("a");
+
+        ret.push("b"); //26
+        ret.push("d");
+        ret.push("a");
+        ret.push("a");
+        ret.push("c");
+
+        ret.push("d"); //31
+        ret.push("a");
+        ret.push("d");
+        ret.push("c");
+
+        return ret;
+    }
 }
