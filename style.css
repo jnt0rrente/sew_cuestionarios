@@ -76,6 +76,9 @@ input[type="radio"] {
 }
 
 footer {
-    float: right;
+    display: block;
+}
+
+footer p {
     align-self: right;
 }
