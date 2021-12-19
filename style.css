@@ -74,3 +74,8 @@ nav a:hover {
 input[type="radio"] {
     margin: 0.5em;
 }
+
+footer {
+    float: right;
+    align-self: right;
+}
