@@ -51,7 +51,7 @@ class Soluciones {
         ret.push("b"); //21
         ret.push("b");
         ret.push("d");
-        ret.push("a");
+        ret.push("c");
         ret.push("b");
 
         ret.push("a"); //26
