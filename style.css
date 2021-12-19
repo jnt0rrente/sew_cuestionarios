@@ -76,10 +76,6 @@ input[type="radio"] {
 }
 
 footer {
-    width: auto;
-    display: flex;
-}
-
-footer p {
-    align-self: flex-end;
+    text-align: right;
+    margin-bottom: 5em;
 }
