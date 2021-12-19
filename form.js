@@ -19,16 +19,16 @@ class Checker {
             $("#"+idPregunta).removeClass("incorrecta");
 
             if (respuesta === soluciones[i]) {
-                console.log("pregunta " + idPregunta + " correcta")
                 $("#"+idPregunta).addClass("correcta");
+
+                
             } else {
-                console.log("pregunta " + idPregunta + " incorrecta")
                 $("#"+idPregunta).addClass("incorrecta");
+                var p = document.createElement("p");
+                p.innerText = "Solución: " + soluciones[i];
+                $("#"+idPregunta).append(p)
             }
         }
-
-        console.log(JSON.stringify(soluciones));
-        console.log(JSON.stringify(respuestas));
     }
 
     
